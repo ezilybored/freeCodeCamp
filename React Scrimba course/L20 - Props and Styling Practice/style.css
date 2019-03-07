@@ -1,0 +1,23 @@
+body {
+    background: whitesmoke;
+}
+
+.jokes {
+    display: grid;
+    grid-column: repeat(1 1fr);
+    grid-gap: 20px;
+}
+
+.joke {
+    border: solid 1px black;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 4px lightgrey;
+    background: white;
+}
+
+.nav {
+
+
+}

@@ -1,0 +1,16 @@
+body {
+  background-color: whitesmoke;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+}
+
+.todoitem {
+    border: solid 1px black;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 4px lightgrey;
+}
